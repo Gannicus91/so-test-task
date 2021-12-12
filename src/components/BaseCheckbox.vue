@@ -24,7 +24,3 @@ export default class BaseCheckbox extends Vue {
   @ModelSync('checked', 'change', { type: Boolean }) readonly checkedValue!: boolean;
 }
 </script>
-
-<style scoped>
-
-</style>
